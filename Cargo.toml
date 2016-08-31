@@ -1,0 +1,12 @@
+[package]
+name = "kiss3dtest"
+version = "0.1.0"
+authors = ["ryna4c2e <ryna4c2e@gmail.com>"]
+
+[dependencies]
+nalgebra = "0.8.2"
+rand = "*"
+gl = "*"
+
+[dependencies.kiss3d]
+git = "https://github.com/sebcrozet/kiss3d"
